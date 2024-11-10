@@ -1,0 +1,164 @@
+body {
+    background-color: #E2D2D2;
+    font-family: 微軟正黑體;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #BFC8D7;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: #A2B59F;
+}
+
+.content {
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.section {
+    background-color: #E3E2B4;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.section h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #A2B59F;
+    padding-bottom: 5px;
+}
+
+/* 修改About Me區域字體大小 */
+.introduce {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.intro-text h1 {
+    font-size: 3.5em; /* 讓「劉欣柔」字體較大 */
+    margin-bottom: 0.5em; /* 調整上下間距 */
+}
+
+.intro-text h3 {
+    font-size: 1.8em; /* 調整學校名稱字體 */
+    margin-bottom: 0.5em;
+}
+
+.intro-text h4 {
+    font-size: 1.2em; /* 調整標語字體 */
+    margin-bottom: 1em;
+}
+
+.intro-text p {
+    font-size: 1.1em; /* 調整聯絡資訊的字體 */
+}
+
+.intro-text {
+    width: 50%;
+}
+
+.intro-photo {
+    width: 45%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.contact-info a {
+    color: #333;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    color: #A2B59F;
+}
+
+/* 調整經驗區域背景色 */
+.experience-container .sub-section {
+    background-color: #BFC8D7;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+.experience-photo {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+    border-radius: 8px;
+}
+
+.photo-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.photo-row img,
+.photo-row iframe {
+    width: 49%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.video {
+    width: 49%;
+    height: auto;
+}
+
+.skills .skill {
+    margin-bottom: 15px;
+}
+
+.skills .skill label {
+    font-size: 18px;
+}
+
+.bar {
+    background-color: #BFC8D7;
+    height: 20px;
+    border-radius: 5px;
+}
+
+.progress {
+    height: 100%;
+    border-radius: 5px;
+}
+
+.java {
+    width: 65%;
+    background-color: #A2B59F;
+}
+
+.python {
+    width: 80%;
+    background-color: #A2B59F;
+}
+
+.html {
+    width: 60%;
+    background-color: #A2B59F;
+}
+
+.css {
+    width: 50%;
+    background-color: #A2B59F;
+}
